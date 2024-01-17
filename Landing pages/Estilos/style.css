@@ -23,7 +23,7 @@ Grandes Telas: acima de 1200px
 }
 
 body {
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(32, 31, 31);
     margin: 0px;
     padding: 0px;
     overflow-y: hidden;
@@ -95,10 +95,11 @@ padding: 0%;
     justify-content: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: rgb(34, 33, 33);
+    background-color: rgb(18, 18, 18);
     border-radius: 20px;
     box-sizing: border-box;
     transform: translate(-70px);
+    box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.2);
 }
 
 .card-login > h1 {
@@ -170,7 +171,7 @@ padding: 0%;
     color: yellow;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:320px) and (max-width:769px) {
 
     .login {
         flex-direction: column;
@@ -183,12 +184,13 @@ padding: 0%;
         color: yellow;
         text-shadow: 2px 2px rgba(0, 0, 0, 0.581);
         margin-bottom: 60px;
+        display: none;
     }
 
     .card-login{
         height: 50vh;
         width: 50vw;
-        transform: translate(30px, -150px);
+        transform: translate(30px, -40px);
     }
     body {
         background-color: rgb(106, 105, 105);
@@ -200,9 +202,16 @@ padding: 0%;
 
 }
 
-@media  screen and (min-width:769px) and(max-width:1024px) {
+@media  screen and (min-width:769px) {
     .imagem{
-        transform: translate(-300pz);
+        transform: translate(50px);
+        display: block;
+        margin-right: 60px;
+    }
+
+    .login > h1 {
+        transform: translate(200px);
+        display: none;
     }
 }
 
