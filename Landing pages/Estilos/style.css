@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(17, 17, 17);
+    margin: 0px;
+    padding: 0px;
+}
+
+.login { 
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.imagem {
+    width: 15vw;
+    flex-direction: column;
+}
+
+.left {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.left > h1 {
+    font-size: 1.8em;
+  color: rgb(249, 249, 64);
+  margin-left: 4px;
+  height: 70%;
+ text-align: center;
+}
+
+.left > h2 {
+    font-size: 1.3em;
+    color: rgb(234, 234, 62);
+    height: 70%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.right {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-login {
+    width: 60%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: rgb(34, 33, 33);
+    border-radius: 20px;
+}
+
+.card-login > h1 {
+    color: rgb(233, 233, 233);
+    font-size: 1.7em;
+    margin: 0;
+    font-weight: 800;
+    height: 80%;
+}
+
+.card-login > form {
+   height: 250%;
+   width: 90%;
+}
+
+.email {
+    width: 110%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(236, 236, 129);
+    color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.senha {
+    width: 110%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgb(236, 236, 129);
+    color: black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    
+}
+
+.button {
+    width: 110%;
+    height: 25%;
+    background-color: rgb(251, 255, 0);
+    color: black;
+    font-weight: bolder;
+    font-size: 1em;
+   border-radius: 10px;
+}
+
+.card-login > form > h2 {
+    margin: 0;
+    font-size: 0.8em;
+    color: yellow;
+}
