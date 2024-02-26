@@ -148,6 +148,23 @@ select {
 
 }
 
+/* media query */
+
+@media screen and (max-width:1125px) {
+     .left h1, h2 {
+        font-size: 0.7rem;
+     }
+
+     .input input, button {
+        display: flex;
+        padding: 15px;
+        transform: translate(10px, 150px);
+     }
+
+    .image img { transform: translate(30px, 100px);
+        margin: 0;
+    }
+}
 
 
 
