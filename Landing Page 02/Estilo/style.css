@@ -41,6 +41,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: rgb(33, 33, 33);
 }
 
 /* A elements that don't have a class get default styles */
@@ -81,30 +82,42 @@ select {
 
 .left h1, h2 {
     text-align: right;
-    margin-right: 250px;
-    transform: translate(0, 60px);
+    margin-right: 220px;
+    transform: translate(0, 50px);
+    font-family: 'Roboto', sans-serif;
+}
+
+.left h2 {
+    color: goldenrod;
+   
 }
 
 .left h1 {
     margin-top: 100px;
+    color: white;
 }
 
 .left img {
     width: 35%;
     align-items: center;
     margin: auto;
-    transform: translate(-300px, 0);
+    transform: translate(-300px, -80px);
 }
 
 .input input, button {
     display: flex;
     align-items: right;
     margin: auto;
-    transform: translate(300px, -420px);
+    transform: translate(300px, -450px);
     padding: 30px;
     width: 30%;
     margin-top: 10px;
     border-radius: 30px;
+}
+
+.input input {
+    background-color: rgb(222, 217, 217);
+    text-size-adjust: 1.2rem;
 }
 
 .input input::placeholder {
@@ -125,8 +138,16 @@ select {
     text-align: center; /* Centraliza o texto dentro do botão */
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
- 
+    background-color: white;
+    cursor: pointer;
 }
+
+.input button:hover {
+    background-color: goldenrod;
+    color: black;
+
+}
+
 
 
 
