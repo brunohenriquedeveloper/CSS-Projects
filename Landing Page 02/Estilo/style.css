@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* Andy Bell CSS reset */
+
 /* Box sizing rules */
 *,
 *::before,
@@ -76,5 +80,49 @@ select {
 }
 
 body {
-
+    background-color: rgb(26, 26, 26);
 }
+
+.left {
+    text-align: right;
+    align-items: center;
+    padding: 25px;
+    transform: translate(-95px);
+}
+
+.left h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left h2 {
+    color:rgb(206, 175, 0);
+    }
+
+    .input {
+        display: block;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .input input { background-color: rgb(174, 170, 170);
+        color: black;
+        padding: 30px;
+        border-radius: 20px;
+        margin: 5px;
+        display: flex;
+       transform: translate(1000px, -400px);
+    }
+
+    .input input
+    ::placeholder {
+        color: black;
+        
+    }
+
+    .image img {
+        width: 35%;
+        align-items: center;
+        margin-left: 80px;
+    }
