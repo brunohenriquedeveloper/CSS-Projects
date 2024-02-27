@@ -152,16 +152,26 @@ select {
 
 @media screen and (max-width:1125px) {
      .left h1, h2 {
-        font-size: 0.7rem;
+        font-size: 0.9rem;
+     
      }
 
      .input input, button {
         display: flex;
         padding: 15px;
-        transform: translate(10px, 150px);
+        transform: translate(170px, -320px);
      }
 
-    .image img { transform: translate(30px, 100px);
+     .input input::placeholder {
+      font-size: .8rem;
+     }
+
+     .input button {
+      padding: 15px;
+      font-size: .9rem;
+     }
+
+    .image img { transform: translate(30px, -40px);
         margin: 0;
     }
 }
