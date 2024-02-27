@@ -192,5 +192,75 @@ body {
 }
 
 
+@media screen and (max-width:668px){
 
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.left h1, h2 {
+  font-size: .9rem;
+}
+
+.left h1 {
+  transform: translate(70px);
+}
+
+.left h2 {
+  transform: translate(100px);
+}
+
+.image img {
+  transform: translate(170px, 70px);
+}
+
+
+
+.input input,button {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  transform: translate(20px, 90px);
+  width: 60%;
+}
+
+.input button {
+  width: 60%;
+}
+
+.input input::placeholder {
+  font-size: .9rem;
+}
+
+}
+
+@media screen and (max-width:569px) {
+  body{
+    overflow-y: visible;
+  }
+
+  .left h1, h2 {
+    font-size: .8rem;
+    transform: translate(80px, -40px);
+  }
+
+  .left h2 {
+    transform: translate(110px, -35px);
+  }
+
+  .image img {
+    transform: translate(160px, -10px);
+  }
+  
+  .input input, button {
+    width: 50%;
+    transform: translate(20px, -7px);
+  }
+
+  .input button {
+    width: 50%;
+  }
+}
 
