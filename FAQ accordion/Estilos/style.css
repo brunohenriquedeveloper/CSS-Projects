@@ -39,6 +39,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: rgb(240, 209, 240);
 }
 
 /* A elements that don't have a class get default styles */
@@ -75,4 +76,26 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+.bg-img img {
+    width: 100vw;
+}
+.faq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction: column;
+}
+
+.faq h1, .faq h2 {
+    flex-direction: column;
+}
+
+.faq .star {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
 }
