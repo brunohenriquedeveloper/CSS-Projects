@@ -39,9 +39,16 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: rgb(240, 209, 240);
+  background-color: hsl(276, 100%, 94%);
   display: flex;
   flex-direction: column;
+  background: url(background-pattern-desktop.svg) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+
 }
 
 /* A elements that don't have a class get default styles */
@@ -78,5 +85,51 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+.container {
+    background: #fff;
+    width: 550px;
+    padding: 30px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 15px;
+}
+
+.container .heading {
+    display: flex;
+    gap: 20px;
+}
+
+.container .heading .h1 {
+    font-weight: 800;
+}
+
+.container .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container p {
+    color: hsl(292, 42%, 14%);
+    font-size: 16px;
+}
+
+.container .question img {
+    cursor: pointer;
+}
+
+.minus-hidden {
+    display: none;
+}
+
+.attribution {
+    margin-top: 40px;
+}
+
+.container hr {
+    border: 1px solid #d3d3d3;
 }
 
