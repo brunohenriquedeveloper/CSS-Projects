@@ -40,6 +40,8 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
   background-color: rgb(240, 209, 240);
+  display: flex;
+  flex-direction: column;
 }
 
 /* A elements that don't have a class get default styles */
@@ -78,24 +80,3 @@ select {
   }
 }
 
-.bg-img img {
-    width: 100vw;
-}
-.faq {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    flex-direction: column;
-}
-
-.faq h1, .faq h2 {
-    flex-direction: column;
-}
-
-.faq .star {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-}
