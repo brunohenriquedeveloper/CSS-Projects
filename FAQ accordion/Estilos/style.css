@@ -20,4 +20,17 @@ body {
   line-height: 1.5;
   background: url(background-pattern-desktop.svg) no-repeat;
   background-color: var(--Light--pink);
+  background-position: top;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.container {
+  display: block;
+  padding: 40px 15px;
+  margin: auto;
+  color: hsl(0, 0%, 100%);
+  width: 50%;
+  border-radius: 1rem;
+  box-shadow: 0px 30px 100px -50px black;
 }
