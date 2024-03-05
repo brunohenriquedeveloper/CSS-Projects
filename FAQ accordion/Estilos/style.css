@@ -64,3 +64,37 @@ body {
   .minus-hidden {
      display: none;
   }
+
+  .para-hidden{
+    display: none;
+  }
+
+
+  .container hr {
+    border: 1px solid var(--Grayish--purple);
+  }
+
+
+  .attribution {
+    margin-top: 40px;
+
+  }
+
+  @media (max-width: 565px) {
+
+    .container{
+      width: 400px;
+    }
+    
+  }
+
+  
+  @media (max-width: 400px) {
+
+    .container{
+      width: 350px;
+    }
+    
+  }
+
+
