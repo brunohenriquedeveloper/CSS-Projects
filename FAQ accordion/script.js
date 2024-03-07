@@ -1,6 +1,6 @@
 const plus = document.querySelectorAll('.plus');
-const minus = document.querySelectorAll('.minus-hidden');
-const para = document.querySelectorAll('.para-hidden');
+const minus = document.querySelectorAll('.minus');
+const para = document.querySelectorAll('.para');
 
     for (let i = 0; i < plus.length; i++) {
         plus[i].addEventListener('click', function() {
