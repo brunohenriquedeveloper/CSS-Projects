@@ -1,98 +1,32 @@
 @charset "UTF-8";
 
-/* Andy Bell´s CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Box sizing rules */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
 }
 
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
-
-/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-  list-style: none;
-}
-
-/* Set core root defaults */
-html:focus-within {
-  scroll-behavior: smooth;
-}
-
-/* Set core body defaults */
 body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  align-items: center;
-text-align: center;
-display: flex;
-  line-height: 1.5;
-  background: url(../background-pattern-desktop.svg) no-repeat;
-background-color: rgb(254, 238, 254);
-flex-direction: column;
+    background: url(../background-pattern-desktop.svg) no-repeat;
+    background-color: rgb(253, 241, 253);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
 }
-
-/* A elements that don't have a class get default styles */
-a:not([class]) {
-  text-decoration-skip-ink: auto;
-}
-
-/* Make images easier to work with */
-img,
-picture {
-  max-width: 100%;
-  display: block;
-}
-
-/* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
-@media (prefers-reduced-motion: reduce) {
-  html:focus-within {
-   scroll-behavior: auto;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
 
 .container {
+    background-color: white;
     width: 550px;
-    background: white;
-   border-radius: 15px;
-   padding: 30px 40px;
-   gap: 20px;
-   display: flex;
-   flex-direction: column;
-
+    padding: 30px 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container .heading {
@@ -104,14 +38,49 @@ select {
     font-weight: 800;
 }
 
-.container .question {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+.container p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-
+.container .question img {
+    cursor: pointer;
+    transform: translate(440px, 20px);
+}
 
 .hidden {
     display: none;
+}
+
+.attribution {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.attribution h4 {
+    font-weight: 400;
+}
+
+.question hr {
+    border: 1px solid rgb(253, 241, 253);
+    margin-top: 5px;
+}
+
+@media (max-width: 565px) {
+
+    .container{
+      width: 400px;
+    }
+    
+  }
+
+  
+  @media (max-width: 400px) {
+
+    .container{
+      width: 350px;
+    }
 }
