@@ -38,12 +38,13 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  background: url(../background-pattern-desktop.svg) no-repeat;
-align-items: center;
+  align-items: center;
 text-align: center;
 display: flex;
+  line-height: 1.5;
+  background: url(../background-pattern-desktop.svg) no-repeat;
 background-color: rgb(254, 238, 254);
+flex-direction: column;
 }
 
 /* A elements that don't have a class get default styles */
@@ -84,14 +85,32 @@ select {
 
 
 .container {
-    width: 70%;
+    width: 550px;
     background: white;
-   border-radius: 20px;
+   border-radius: 15px;
+   padding: 30px 40px;
+   gap: 20px;
+   display: flex;
+   flex-direction: column;
+
 }
 
-.heading {
-
+.container .heading {
+    display: flex;
+    gap: 20px;
 }
+
+.container .heading h1 {
+    font-weight: 800;
+}
+
+.container .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 
 .hidden {
     display: none;
