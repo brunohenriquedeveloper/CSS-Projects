@@ -43,6 +43,7 @@ body {
 align-items: center;
 text-align: center;
 display: flex;
+background-color: rgb(254, 238, 254);
 }
 
 /* A elements that don't have a class get default styles */
