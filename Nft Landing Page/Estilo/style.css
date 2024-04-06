@@ -162,7 +162,8 @@ h2 {
 }
 
 hr {
-    color: rgb(36, 34, 34);
+  border: none; /* Remove default border */
+  border-top: 1px solid rgb(108, 103, 103); /* Add border on top */
     width: 90%;
     transform: translate(0,-60px);
 }
@@ -328,6 +329,8 @@ h2 {
 }
 
 hr {
+  border: none; /* Remove default border */
+  border-top: 1px solid rgb(108, 103, 103); /* Add border on top */
     width: 90%;
     transform: translate(0,-60px);
 }
