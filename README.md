@@ -4,5 +4,3 @@
 
 <a href=>click here to access the social media project</a>
 
-
-<a href=>click here to access the landing page project </a>
