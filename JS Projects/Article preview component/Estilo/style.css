@@ -159,6 +159,34 @@ border-bottom-left-radius: 1.5%;
     transform: translate(366px, -346px);
 }
 
-.interactive {
-  transform: translate(740px, -370px);
+.share {
+ 
+  padding: 3%;
+  background-color: var(--Very-Dark-Grayish-Blue);
+  color: var(--Light-Grayish-Blue);
+  display: flex;
+  width: 40%;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+}
+
+.share > svg{
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: space-evenly;
+}
+
+.share .triangle {
+  width: 20px;
+  height: 20px;
+  background-color: var(--Very-Dark-Grayish-Blue);
+  position: absolute;
+  top: 75%;
+  left: 35%;
+  transform: rotateY(0deg) rotate(45deg);
 }
