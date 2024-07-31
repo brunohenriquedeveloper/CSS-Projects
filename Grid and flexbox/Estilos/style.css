@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto;
+    grid-gap: 15px;
+    text-align: center;
+    padding: 50px;
+    
+}
+
+.item-1 {
+    background-color: aqua;
+}
+.item-2 {
+    background-color: yellow;
+}
+.item-3 {
+    background-color: greenyellow;
+}
+.item-4 {
+    background-color: purple;
+}
+.item-5 {
+    background-color: pink;
+}
