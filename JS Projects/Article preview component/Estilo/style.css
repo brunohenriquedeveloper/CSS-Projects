@@ -161,32 +161,44 @@ border-bottom-left-radius: 1.5%;
 
 .share {
  
-  padding: 3%;
+  padding: 1.5%;
   background-color: var(--Very-Dark-Grayish-Blue);
   color: var(--Light-Grayish-Blue);
   display: flex;
-  width: 40%;
+  width: 15%;
+  height: .23%;
   align-items: center;
   border-radius: 10px;
   justify-content: space-between;
   position: absolute;
-  top: 50%;
+  top: 52%;
   left: 65%;
 }
 
-.share > svg{
+.share > img{
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 8%;
   justify-content: space-evenly;
 }
 
-.share .triangle {
+.triangle {
   width: 20px;
   height: 20px;
   background-color: var(--Very-Dark-Grayish-Blue);
   position: absolute;
   top: 75%;
   left: 35%;
-  transform: rotateY(0deg) rotate(45deg);
+  transform: rotateY(10deg) rotate(90deg);
+  transform: translate(556px, -130px);
+  
+}
+
+.share-btn {
+  display: flex;
+  justify-items: center;
+  transform: translate(720px, -385px);
+  padding: 8px;
+  border-radius: 50%;
+  border-color: aliceblue;
 }
