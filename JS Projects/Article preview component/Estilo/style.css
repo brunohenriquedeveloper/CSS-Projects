@@ -182,16 +182,22 @@ border-bottom-left-radius: 1.5%;
   justify-content: space-evenly;
 }
 
-.triangle {
-  width: 20px;
-  height: 20px;
+.share > .triangle {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid var(--Very-Dark-Grayish-Blue);
   background-color: var(--Very-Dark-Grayish-Blue);
   position: absolute;
   top: 75%;
   left: 35%;
-  transform: rotateY(10deg) rotate(90deg);
-  transform: translate(556px, -130px);
-  
+  transform: translate(26px, -.25px) rotateY(10deg) rotate(45deg) ;
+ 
+}
+
+.hidden {
+  display: none;
 }
 
 .share-btn {
@@ -201,4 +207,15 @@ border-bottom-left-radius: 1.5%;
   padding: 8px;
   border-radius: 50%;
   border-color: aliceblue;
+}
+
+.share > button {
+  transform: translate(00px);
+  background-color: var(--Very-Dark-Grayish-Blue);
+  color: white;
+  font-family: var(--font-family) ;
+  border: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
